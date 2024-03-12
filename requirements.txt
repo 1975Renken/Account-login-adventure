@@ -1,0 +1,6 @@
+npm install express mysql2 body-parser
+node server.js
+npm install cors
+npm install mysql2
+npm install express
+npm install bcrypt

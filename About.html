@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="profile">
+                <img id="profileImage" src="default-profile-picture.jpg" alt="Profile Picture" onclick="openFileInput()">
+                <input type="file" id="fileInput" accept="image/*" onchange="previewImage(event)">
+            </div>
+            <div class="tabs">
+                <a href="#home">Stocks</a>
+                <a href="#articles">Bonds</a>
+                <a href="#videos">Commodities</a>
+                <a href="#pictures">Cryptocurrencies</a>
+                <a href="#settings">Options</a>
+                <a href="#about"></a>
+                <a href="#contact">Cryptocurrencies</a>
+            </div>
+        </div>
+        <div class="content">
+            <!-- Content area for articles, videos, pictures, etc. -->
+            <!-- You can add your content here -->
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+}
+
+.profile {
+    padding: 20px;
+    text-align: center;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.tabs {
+    margin-top: 20px;
+}
+
+.tabs a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.tabs a:hover {
+    background-color: #ddd;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+}
